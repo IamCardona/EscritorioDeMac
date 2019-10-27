@@ -1,0 +1,197 @@
+/* Estilos Generales */
+.Container {
+    text-align: center;
+    width: 100%;
+}
+
+.Picture {
+    width: 50%;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .Picture {
+        width: 100%;
+    }
+}
+
+.Separador {
+    padding: 1rem;
+}
+
+.Center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.CenterMax {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.Link {
+    text-decoration: none;
+    color: white;
+}
+
+.Link2 {
+    color: grey;
+}
+
+.Link2:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.Link:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.CienDash {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ContainerForm {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+@media screen and (max-width: 768px) {
+    .CienDash {
+        width: 100%;
+    }
+
+    .ContainerForm {
+        width: 80%;
+    }
+}
+
+/* Clases */
+
+/* Landing */
+
+.ButtonHomeLeft {
+    float: center;
+    color: black;
+}
+
+.LoginButton {
+    color: grey;
+}
+
+.LoginButton:hover {
+    color: grey;
+}
+
+.ButtonHomeRight {
+    float: right;
+}
+
+.ContainerPictureHome {
+    width: 100%;
+}
+
+.ContainerLinksHome {
+    width: 50%;
+}
+
+/* Login Component */
+
+.ContainerLogin {
+    width: 50%;
+    margin: 2rem auto;
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .ContainerLogin {
+        width: 80%;
+    }
+}
+
+.IconLogin {
+    float: left;
+    margin: 1rem;
+    color: black;
+}
+
+.LogoLogin {
+    margin-right: 4rem;
+}
+
+.InputLogin {
+    margin: 1rem auto;
+}
+
+.ButtonLogin {
+    margin: 1rem;
+}
+
+/* NavBar Compoennts */
+.PictureNavBar {
+    width: 5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.ItemNavBar:hover {
+    cursor: pointer;
+}
+
+.IconNavBar {
+    margin-right: 0.5rem;
+}
+
+/* Dashboard */
+.ContainerDash {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Xd */
+.BottomChange {
+    text-align: center;
+}
+
+/* Dashboard */ 
+
+
+
+/* FormAdd */
+.errosForm {
+    color: red;
+    margin: 1rem;
+}
+
+/* Tabla de Clientes */
+.TablaCliens {
+    width: 80%;
+    margin: 3rem auto;
+}
+
+.NavBarDash {
+    width: 85%;
+    margin: 3rem auto;
+}
+
+@media screen and (max-width: 768px) {
+    .TablaCliens {
+        width: 50rem;
+    }
+}
+
+.LinkUpdate {
+    color: black;
+}
+
+.LinkUpdate:hover {
+    color: black;
+}
+
+.iconBack:hover {
+    cursor: pointer;
+}
